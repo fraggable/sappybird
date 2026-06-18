@@ -71,16 +71,16 @@ export class Bird {
     ctx.ellipse(-3, radius * 0.55, radius * 0.98, radius * 0.36, 0, 0, Math.PI * 2);
     ctx.fill();
 
-    ctx.fillStyle = "#ffc93c";
-    ctx.strokeStyle = "#cc8120";
+    ctx.fillStyle = "#ffb3d1";
+    ctx.strokeStyle = "#df6fa3";
     ctx.lineWidth = 3;
     ctx.beginPath();
     ctx.ellipse(0, 0, radius * 1.02, radius * 0.82, 0, 0, Math.PI * 2);
     ctx.fill();
     ctx.stroke();
 
-    ctx.fillStyle = "#f39c12";
-    ctx.strokeStyle = "#b85c00";
+    ctx.fillStyle = "#ff92c2";
+    ctx.strokeStyle = "#d85894";
     ctx.lineWidth = 2;
     ctx.beginPath();
     ctx.ellipse(-radius * 0.25, radius * 0.14, radius * 0.46, radius * 0.32, -0.2, 0, Math.PI * 2);
